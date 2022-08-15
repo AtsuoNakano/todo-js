@@ -1,3 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  padding: 10px;
   font-family: sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+}
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #333;
+}
+
+.inputArea {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 0 10px;
+  background-color: aqua;
+}
+
+.unfinishedArea {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 0 10px;
+  background-color: bisque;
+}
+
+.finishedArea {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 0 10px;
+  background-color: darkkhaki;
+}
+
+.todoTitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow button {
+  margin-left: 8px;
 }
